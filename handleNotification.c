@@ -1,4 +1,4 @@
-#include "handleNotification.h"
+#include "handleNotification.h" //importing handleNotifications.h
 
 #define handle(A) case __NR_##A: handle_##A(proc_mem_fd, req, resp);
 void watchNotifications(int notification_fd) {
