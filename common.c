@@ -1,4 +1,5 @@
-#include "common.h"
+#include "common.h" //importing common.h
+#include<stdio.h>
 
 int ee(char * msg) {
     perror(msg);
